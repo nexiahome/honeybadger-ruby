@@ -1,3 +1,8 @@
+* Configure sidekiq.attempt_threshold to suppress notifications until retry
+  threshold is reached.
+
+  *Joshua Wood*
+
 * Update default ignored exceptions to include the latest Rails rescue
   responses. (see issue #107)
 
