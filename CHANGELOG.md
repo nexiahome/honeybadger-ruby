@@ -1,3 +1,8 @@
+* Exit with 1 from deploy command when request fails but ignore the failures in
+  the capistrano task.
+
+  *Joshua Wood*
+
 * Update default ignored exceptions to include the latest Rails rescue
   responses. (see issue #107)
 
